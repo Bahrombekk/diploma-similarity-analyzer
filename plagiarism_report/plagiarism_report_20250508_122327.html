@@ -1,0 +1,47 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Plagiat tekshiruvi hisoboti</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1 { color: #2c3e50; }
+            h2 { color: #3498db; margin-top: 20px; }
+            .summary { background-color: #f9f9f9; padding: 15px; border-radius: 5px; margin: 15px 0; }
+            .warning { background-color: #ffe0e0; padding: 10px; border-radius: 5px; margin: 15px 0; }
+            table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
+            th, td { padding: 8px; text-align: left; border: 1px solid #ddd; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .progress-container { width: 100%; background-color: #e0e0e0; border-radius: 5px; }
+            .progress-bar { height: 24px; border-radius: 5px; }
+        </style>
+    </head>
+    <body>
+        <h1>Plagiat tekshiruvi hisoboti</h1>
+        <p><strong>Tekshirilgan sana:</strong> 2025-05-08 12:23</p>
+        <p><strong>1-hujjat nomi:</strong> DOCX Document 1.docx</p>
+        <p><strong>2-hujjat nomi:</strong> DOCX Document 2.docx</p>
+        
+        <div class="summary">
+            <h2>Umumiy natijalar:</h2>
+            <p><strong>Umumiy o'xshashlik darajasi:</strong> 65.42%</p>
+            <p><strong>TF-IDF o'xshashlik:</strong> 41.03%</p>
+            <p><strong>Semantik o'xshashlik:</strong> 89.82%</p>
+            <p><strong>Plagiat darajasi:</strong> Yuqori</p>
+            
+            <div class="progress-container">
+                <div class="progress-bar" style="width: 65.42481220302194%; background-color: #ffa64d;">65.4%</div>
+            </div>
+        </div>
+        
+        <div class="warning"><strong>Ogohlantirish:</strong> Ushbu ikki hujjat orasida sezilarli darajada o'xshashlik aniqlandi.</div>
+        
+        <h2>O'xshash paragraflar:</h2><table border='1' style='width:100%; border-collapse: collapse;'><tr><th>№</th><th>1-hujjat paragrafi</th><th>2-hujjat paragrafi</th><th>O'xshashlik</th></tr><tr><td>1</td><td>"O‘zbekistonda axborot texnologiyalari sohasi jadal rivojlanmoqda. So‘nggi yillarda sun’iy intellekt va ma’lumotlarni tahlil qilish bo‘yicha loyihalar ko‘paydi. Ushbu jarayonda universitetlar va ilmiy muassasalar muhim rol o‘ynaydi. Masalan, Toshkent axborot texnologiyalari universiteti (TATU) sun’iy intellekt bo‘yicha maxsus kurslar tashkil qilmoqda. Bu kurslar yosh mutaxassislarni zamonaviy texnologiyalarga tayyorlashga xizmat qiladi. Shuningdek, davlat tomonidan IT sohasiga investitsiyalar kiritilmoqda, bu esa yangi ish o‘rinlari yaratilishiga olib kelmoqda."</td><td>"O‘zbekistonning axborot texnologiyalari sohasi so‘nggi yillarda sezilarli o‘sishni boshdan kechirmoqda. Sun’iy intellekt va ma’lumotlar tahlili bilan bog‘liq loyihalar soni ortmoqda. Universitetlar bu jarayonda katta ahamiyatga ega. Toshkent axborot texnologiyalari universiteti (TATU) sun’iy intellekt bo‘yicha o‘quv kurslarini joriy qildi. Ushbu kurslar yoshlarni zamonaviy texnologiyalarga tayyorlaydi. Bundan tashqari, hukumat IT sohasiga katta miqdorda sarmoya kiritmoqda, bu esa yangi ish o‘rinlarining shakllanishiga yordam bermoqda."</td><td>89.8%</td></tr></table>
+        
+        <h2>O'xshash jumlalar:</h2><table border='1' style='width:100%; border-collapse: collapse;'><tr><th>№</th><th>1-hujjat jumlasi</th><th>2-hujjat jumlasi</th><th>O'xshashlik</th></tr><tr><td>1</td><td>"O‘zbekistonda axborot texnologiyalari sohasi jadal rivojlanmoqda.</td><td>"O‘zbekistonning axborot texnologiyalari sohasi so‘nggi yillarda sezilarli o‘sishni boshdan kechirmoqda.</td><td>86.0%</td></tr><tr><td>2</td><td>So‘nggi yillarda sun’iy intellekt va ma’lumotlarni tahlil qilish bo‘yicha loyihalar ko‘paydi.</td><td>Sun’iy intellekt va ma’lumotlar tahlili bilan bog‘liq loyihalar soni ortmoqda.</td><td>75.7%</td></tr><tr><td>3</td><td>Ushbu jarayonda universitetlar va ilmiy muassasalar muhim rol o‘ynaydi.</td><td>Universitetlar bu jarayonda katta ahamiyatga ega.</td><td>70.9%</td></tr><tr><td>4</td><td>Masalan, Toshkent axborot texnologiyalari universiteti (TATU) sun’iy intellekt bo‘yicha maxsus kurslar tashkil qilmoqda.</td><td>Toshkent axborot texnologiyalari universiteti (TATU) sun’iy intellekt bo‘yicha o‘quv kurslarini joriy qildi.</td><td>95.7%</td></tr><tr><td>5</td><td>Bu kurslar yosh mutaxassislarni zamonaviy texnologiyalarga tayyorlashga xizmat qiladi.</td><td>Ushbu kurslar yoshlarni zamonaviy texnologiyalarga tayyorlaydi.</td><td>84.2%</td></tr><tr><td>6</td><td>Shuningdek, davlat tomonidan IT sohasiga investitsiyalar kiritilmoqda, bu esa yangi ish o‘rinlari yaratilishiga olib kelmoqda."</td><td>Bundan tashqari, hukumat IT sohasiga katta miqdorda sarmoya kiritmoqda, bu esa yangi ish o‘rinlarining shakllanishiga yordam bermoqda."</td><td>71.4%</td></tr></table>
+        
+        <p><em>Eslatma: Ushbu hisobot avtomatik tahlil natijasi hisoblanadi va mutlaq haqiqat emas. Yakuniy qaror qabul qilish uchun mutaxassis ko'rigi tavsiya etiladi.</em></p>
+    </body>
+    </html>
+    
